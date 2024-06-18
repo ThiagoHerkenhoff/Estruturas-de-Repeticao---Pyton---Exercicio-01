@@ -1,0 +1,12 @@
+# 1 - Faça um programa que determine e mostre os 5 primeiros múltiplos de 3, considerando números maiores
+# que 0
+
+numero = 1
+
+qtd = 0
+
+while qtd < 5:
+    if numero % 3 == 0:
+        print(numero)
+        qtd = qtd + 1
+    numero = numero + 1
